@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class URLFetcher {
-    public Set<String> fetchedlinks (String url){
+    public Set<String> fetchlinks (String url){
         Set<String> links = new HashSet<>();
         Document document = null;
 
